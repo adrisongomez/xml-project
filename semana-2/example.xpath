@@ -1,0 +1,4 @@
+/company/employees/employee/name
+/company/employees/employee
+/company/employees/employee[id=1]/name
+/company/employees/employee[contains(name, 'Ben')]/name
