@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "productos.dtd">
+<productos>
+    <producto id="1">
+        <nombre>Laptop Ultradelgada</nombre>
+        <precio>1299.99</precio>
+        <descripcion>Laptop de última generación con procesador de alto rendimiento, 16GB de RAM y 512GB de almacenamiento SSD.</descripcion>
+    </producto>
+    
+    <producto id="2">
+        <nombre>Smartphone Premium</nombre>
+        <precio>899.99</precio>
+        <descripcion>Smartphone con cámara de 108MP, pantalla AMOLED de 6.7 pulgadas y batería de larga duración.</descripcion>
+    </producto>
+    
+    <producto id="3">
+        <nombre>Auriculares Inalámbricos</nombre>
+        <precio>199.99</precio>
+        <descripcion>Auriculares con cancelación activa de ruido, resistentes al agua y con 30 horas de batería.</descripcion>
+    </producto>
+    
+    <producto id="4">
+        <nombre>Monitor Curvo 32"</nombre>
+        <precio>449.99</precio>
+        <descripcion>Monitor gaming curvo de alta definición 4K, con 144Hz de refresco y tecnología HDR.</descripcion>
+    </producto>
+    
+    <producto id="5">
+        <nombre>Cámara Mirrorless</nombre>
+        <precio>1599.99</precio>
+        <descripcion>Cámara profesional con sensor full-frame de 45MP, grabación 8K y sistema avanzado de enfoque automático.</descripcion>
+    </producto>
+</productos>
