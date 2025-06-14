@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="estudiantes.xsd">
+  <estudiante>
+    <id>1</id>
+    <nombre>Laura Pérez</nombre>
+    <edad>21</edad>
+    <carrera>Ingeniería de Software</carrera>
+  </estudiante>
+  <estudiante>
+    <id>2</id>
+    <nombre>Joshua Pérez</nombre>
+    <edad>22</edad>
+    <carrera>Licenciatura en Informatica</carrera>
+  </estudiante>
+</estudiantes>
