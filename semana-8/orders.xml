@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order id="1001" date="2025-01-05" customer="John Smith" status="Delivered">
+    <lineItems>
+      <item id="10011">
+        <product id="P001">
+          <name>Laptop Ultradelgada</name>
+          <price>1299.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>1299.99</subtotal>
+      </item>
+      <item id="10012">
+        <product id="P023">
+          <name>Wireless Mouse</name>
+          <price>45.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>91.98</subtotal>
+      </item>
+    </lineItems>
+    <total>1391.97</total>
+    <shippingAddress>123 Main St, Boston, MA 02108</shippingAddress>
+  </order>
+  
+  <order id="1002" date="2025-01-06" customer="Emily Johnson" status="Shipped">
+    <lineItems>
+      <item id="10021">
+        <product id="P008">
+          <name>Coffee Maker</name>
+          <price>89.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.99</total>
+    <shippingAddress>456 Elm St, Chicago, IL 60601</shippingAddress>
+  </order>
+  
+  <order id="1003" date="2025-01-07" customer="Michael Brown" status="Processing">
+    <lineItems>
+      <item id="10031">
+        <product id="P015">
+          <name>Smartphone Premium</name>
+          <price>899.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>899.99</subtotal>
+      </item>
+      <item id="10032">
+        <product id="P016">
+          <name>Phone Case</name>
+          <price>24.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>24.99</subtotal>
+      </item>
+      <item id="10033">
+        <product id="P017">
+          <name>Screen Protector</name>
+          <price>19.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>39.98</subtotal>
+      </item>
+    </lineItems>
+    <total>964.96</total>
+    <shippingAddress>789 Oak St, Seattle, WA 98101</shippingAddress>
+  </order>
+  
+  <order id="1004" date="2025-01-08" customer="Sarah Davis" status="Delivered">
+    <lineItems>
+      <item id="10041">
+        <product id="P042">
+          <name>Yoga Mat</name>
+          <price>35.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>35.99</subtotal>
+      </item>
+      <item id="10042">
+        <product id="P043">
+          <name>Resistance Bands</name>
+          <price>29.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+    </lineItems>
+    <total>65.98</total>
+    <shippingAddress>101 Pine St, Austin, TX 78701</shippingAddress>
+  </order>
+  
+  <order id="1005" date="2025-01-09" customer="David Wilson" status="Delivered">
+    <lineItems>
+      <item id="10051">
+        <product id="P055">
+          <name>Wireless Headphones</name>
+          <price>199.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+    </lineItems>
+    <total>199.99</total>
+    <shippingAddress>202 Maple St, Denver, CO 80202</shippingAddress>
+  </order>
+  
+  <order id="1006" date="2025-01-10" customer="Jessica Martinez" status="Processing">
+    <lineItems>
+      <item id="10061">
+        <product id="P062">
+          <name>Blender</name>
+          <price>79.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+      <item id="10062">
+        <product id="P063">
+          <name>Measuring Cups</name>
+          <price>19.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+    </lineItems>
+    <total>99.98</total>
+    <shippingAddress>303 Oak St, Portland, OR 97201</shippingAddress>
+  </order>
+  
+  <order id="1007" date="2025-01-11" customer="Christopher Robinson" status="Shipped">
+    <lineItems>
+      <item id="10071">
+        <product id="P071">
+          <name>External Hard Drive</name>
+          <price>129.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>404 Cherry St, Miami, FL 33101</shippingAddress>
+  </order>
+  
+  <order id="1008" date="2025-01-12" customer="Amanda Thomas" status="Delivered">
+    <lineItems>
+      <item id="10081">
+        <product id="P083">
+          <name>Desk Lamp</name>
+          <price>49.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>99.98</subtotal>
+      </item>
+      <item id="10082">
+        <product id="P084">
+          <name>Desk Organizer</name>
+          <price>34.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>34.99</subtotal>
+      </item>
+    </lineItems>
+    <total>134.97</total>
+    <shippingAddress>505 Walnut St, Atlanta, GA 30303</shippingAddress>
+  </order>
+  
+  <order id="1009" date="2025-01-13" customer="Daniel Lee" status="Processing">
+    <lineItems>
+      <item id="10091">
+        <product id="P092">
+          <name>Gaming Mouse</name>
+          <price>69.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>69.99</subtotal>
+      </item>
+      <item id="10092">
+        <product id="P093">
+          <name>Gaming Keyboard</name>
+          <price>119.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>119.99</subtotal>
+      </item>
+    </lineItems>
+    <total>189.98</total>
+    <shippingAddress>606 Willow St, San Diego, CA 92101</shippingAddress>
+  </order>
+  
+  <order id="1010" date="2025-01-14" customer="Ashley Garcia" status="Shipped">
+    <lineItems>
+      <item id="10101">
+        <product id="P101">
+          <name>Office Chair</name>
+          <price>249.99</price>
+          <category>Furniture</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+    </lineItems>
+    <total>249.99</total>
+    <shippingAddress>707 Birch St, Philadelphia, PA 19102</shippingAddress>
+  </order>
+  
+  <order id="1011" date="2025-01-15" customer="Matthew Rodriguez" status="Delivered">
+    <lineItems>
+      <item id="10111">
+        <product id="P110">
+          <name>Smart Watch</name>
+          <price>299.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>299.99</subtotal>
+      </item>
+    </lineItems>
+    <total>299.99</total>
+    <shippingAddress>808 Cedar St, Phoenix, AZ 85001</shippingAddress>
+  </order>
+  
+  <order id="1012" date="2025-01-16" customer="Elizabeth Hernandez" status="Processing">
+    <lineItems>
+      <item id="10121">
+        <product id="P121">
+          <name>Bluetooth Speaker</name>
+          <price>129.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+      <item id="10122">
+        <product id="P122">
+          <name>Power Bank</name>
+          <price>49.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>99.98</subtotal>
+      </item>
+    </lineItems>
+    <total>229.97</total>
+    <shippingAddress>909 Pine St, Las Vegas, NV 89101</shippingAddress>
+  </order>
+  
+  <order id="1013" date="2025-01-17" customer="Ryan Miller" status="Shipped">
+    <lineItems>
+      <item id="10131">
+        <product id="P133">
+          <name>Digital Camera</name>
+          <price>599.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>599.99</subtotal>
+      </item>
+      <item id="10132">
+        <product id="P134">
+          <name>Camera Bag</name>
+          <price>79.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+      <item id="10133">
+        <product id="P135">
+          <name>SD Card 64GB</name>
+          <price>39.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>79.98</subtotal>
+      </item>
+    </lineItems>
+    <total>759.96</total>
+    <shippingAddress>1010 Spruce St, San Francisco, CA 94102</shippingAddress>
+  </order>
+  
+  <order id="1014" date="2025-01-18" customer="Emily Clark" status="Delivered">
+    <lineItems>
+      <item id="10141">
+        <product id="P142">
+          <name>Standing Desk</name>
+          <price>349.99</price>
+          <category>Furniture</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>349.99</subtotal>
+      </item>
+    </lineItems>
+    <total>349.99</total>
+    <shippingAddress>1111 Oak St, Nashville, TN 37203</shippingAddress>
+  </order>
+  
+  <order id="1015" date="2025-01-19" customer="Joshua Lewis" status="Processing">
+    <lineItems>
+      <item id="10151">
+        <product id="P152">
+          <name>Gaming Console</name>
+          <price>499.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>499.99</subtotal>
+      </item>
+      <item id="10152">
+        <product id="P153">
+          <name>Gaming Controller</name>
+          <price>69.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>139.98</subtotal>
+      </item>
+      <item id="10153">
+        <product id="P154">
+          <name>Video Game</name>
+          <price>59.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>179.97</subtotal>
+      </item>
+    </lineItems>
+    <total>819.94</total>
+    <shippingAddress>1212 Maple St, New Orleans, LA 70112</shippingAddress>
+  </order>
+  
+  <order id="1016" date="2025-01-20" customer="Rebecca Hall" status="Shipped">
+    <lineItems>
+      <item id="10161">
+        <product id="P161">
+          <name>Air Purifier</name>
+          <price>199.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+    </lineItems>
+    <total>199.99</total>
+    <shippingAddress>1313 Elm St, Dallas, TX 75201</shippingAddress>
+  </order>
+  
+  <order id="1017" date="2025-01-21" customer="Andrew Turner" status="Delivered">
+    <lineItems>
+      <item id="10171">
+        <product id="P172">
+          <name>Fitness Tracker</name>
+          <price>149.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+      <item id="10172">
+        <product id="P173">
+          <name>Water Bottle</name>
+          <price>24.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>24.99</subtotal>
+      </item>
+    </lineItems>
+    <total>174.98</total>
+    <shippingAddress>1414 Walnut St, Houston, TX 77002</shippingAddress>
+  </order>
+  
+  <order id="1018" date="2025-01-22" customer="Sarah Phillips" status="Processing">
+    <lineItems>
+      <item id="10181">
+        <product id="P181">
+          <name>Tablet</name>
+          <price>399.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>399.99</subtotal>
+      </item>
+      <item id="10182">
+        <product id="P182">
+          <name>Tablet Case</name>
+          <price>39.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>439.98</total>
+    <shippingAddress>1515 Cherry St, Detroit, MI 48201</shippingAddress>
+  </order>
+  
+  <order id="1019" date="2025-01-23" customer="Michael White" status="Shipped">
+    <lineItems>
+      <item id="10191">
+        <product id="P191">
+          <name>Coffee Table</name>
+          <price>249.99</price>
+          <category>Furniture</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+    </lineItems>
+    <total>249.99</total>
+    <shippingAddress>1616 Pine St, Indianapolis, IN 46202</shippingAddress>
+  </order>
+  
+  <order id="1020" date="2025-01-24" customer="Jennifer Parker" status="Delivered">
+    <lineItems>
+      <item id="10201">
+        <product id="P201">
+          <name>Printer</name>
+          <price>249.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+      <item id="10202">
+        <product id="P202">
+          <name>Ink Cartridges</name>
+          <price>59.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>119.98</subtotal>
+      </item>
+      <item id="10203">
+        <product id="P203">
+          <name>Printer Paper</name>
+          <price>19.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>59.97</subtotal>
+      </item>
+    </lineItems>
+    <total>429.94</total>
+    <shippingAddress>1717 Cedar St, Minneapolis, MN 55402</shippingAddress>
+  </order>
+  
+  <order id="1021" date="2025-01-25" customer="David Evans" status="Processing">
+    <lineItems>
+      <item id="10211">
+        <product id="P210">
+          <name>Smart TV</name>
+          <price>799.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>799.99</subtotal>
+      </item>
+      <item id="10212">
+        <product id="P211">
+          <name>HDMI Cable</name>
+          <price>19.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>59.97</subtotal>
+      </item>
+      <item id="10213">
+        <product id="P212">
+          <name>TV Wall Mount</name>
+          <price>89.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>949.95</total>
+    <shippingAddress>1818 Birch St, Charlotte, NC 28202</shippingAddress>
+  </order>
+  
+  <order id="1022" date="2025-01-26" customer="Alexandra Scott" status="Shipped">
+    <lineItems>
+      <item id="10221">
+        <product id="P220">
+          <name>Electric Toothbrush</name>
+          <price>99.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>99.99</subtotal>
+      </item>
+      <item id="10222">
+        <product id="P221">
+          <name>Replacement Heads</name>
+          <price>29.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>59.98</subtotal>
+      </item>
+    </lineItems>
+    <total>159.97</total>
+    <shippingAddress>1919 Maple St, Columbus, OH 43215</shippingAddress>
+  </order>
+  
+  <order id="1023" date="2025-01-27" customer="Brian Nelson" status="Delivered">
+    <lineItems>
+      <item id="10231">
+        <product id="P230">
+          <name>Robot Vacuum</name>
+          <price>349.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>349.99</subtotal>
+      </item>
+    </lineItems>
+    <total>349.99</total>
+    <shippingAddress>2020 Pine St, Kansas City, MO 64105</shippingAddress>
+  </order>
+  
+  <order id="1024" date="2025-01-28" customer="Christina Wright" status="Processing">
+    <lineItems>
+      <item id="10241">
+        <product id="P240">
+          <name>Digital Drawing Tablet</name>
+          <price>249.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+      <item id="10242">
+        <product id="P241">
+          <name>Stylus Pen</name>
+          <price>89.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>339.98</total>
+    <shippingAddress>2121 Cedar St, Pittsburgh, PA 15222</shippingAddress>
+  </order>
+  
+  <order id="1025" date="2025-01-29" customer="Thomas Mitchell" status="Shipped">
+    <lineItems>
+      <item id="10251">
+        <product id="P250">
+          <name>Cordless Drill</name>
+          <price>149.99</price>
+          <category>Tools</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+      <item id="10252">
+        <product id="P251">
+          <name>Drill Bit Set</name>
+          <price>49.99</price>
+          <category>Tools</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+    </lineItems>
+    <total>199.98</total>
+    <shippingAddress>2222 Elm St, Cincinnati, OH 45202</shippingAddress>
+  </order>
+  
+  <order id="1026" date="2025-01-30" customer="Nancy Baker" status="Delivered">
+    <lineItems>
+      <item id="10261">
+        <product id="P260">
+          <name>Slow Cooker</name>
+          <price>79.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+      <item id="10262">
+        <product id="P261">
+          <name>Cooking Utensil Set</name>
+          <price>39.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+      <item id="10263">
+        <product id="P262">
+          <name>Cutting Board</name>
+          <price>29.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>59.98</subtotal>
+      </item>
+    </lineItems>
+    <total>179.96</total>
+    <shippingAddress>2323 Oak St, Baltimore, MD 21202</shippingAddress>
+  </order>
+  
+  <order id="1027" date="2025-01-31" customer="Gary Roberts" status="Processing">
+    <lineItems>
+      <item id="10271">
+        <product id="P270">
+          <name>Home Theater System</name>
+          <price>599.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>599.99</subtotal>
+      </item>
+      <item id="10272">
+        <product id="P211">
+          <name>HDMI Cable</name>
+          <price>19.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>39.98</subtotal>
+      </item>
+    </lineItems>
+    <total>639.97</total>
+    <shippingAddress>2424 Walnut St, Raleigh, NC 27601</shippingAddress>
+  </order>
+  
+  <order id="1028" date="2025-02-01" customer="Laura Cooper" status="Shipped">
+    <lineItems>
+      <item id="10281">
+        <product id="P280">
+          <name>Espresso Machine</name>
+          <price>399.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>399.99</subtotal>
+      </item>
+      <item id="10282">
+        <product id="P281">
+          <name>Coffee Beans</name>
+          <price>19.99</price>
+          <category>Groceries</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>39.98</subtotal>
+      </item>
+    </lineItems>
+    <total>439.97</total>
+    <shippingAddress>2525 Cherry St, Tampa, FL 33602</shippingAddress>
+  </order>
+  
+  <order id="1029" date="2025-02-02" customer="Kevin Hayes" status="Delivered">
+    <lineItems>
+      <item id="10291">
+        <product id="P290">
+          <name>Electric Kettle</name>
+          <price>59.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>59.99</subtotal>
+      </item>
+    </lineItems>
+    <total>59.99</total>
+    <shippingAddress>2626 Birch St, Cleveland, OH 44113</shippingAddress>
+  </order>
+  
+  <order id="1030" date="2025-02-03" customer="Melissa Cox" status="Processing">
+    <lineItems>
+      <item id="10301">
+        <product id="P300">
+          <name>Wireless Router</name>
+          <price>149.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+      <item id="10302">
+        <product id="P301">
+          <name>Ethernet Cable</name>
+          <price>12.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>38.97</subtotal>
+      </item>
+    </lineItems>
+    <total>188.96</total>
+    <shippingAddress>2727 Maple St, St. Louis, MO 63101</shippingAddress>
+  </order>
+  
+  <order id="1031" date="2025-02-04" customer="Steven Kennedy" status="Shipped">
+    <lineItems>
+      <item id="10311">
+        <product id="P310">
+          <name>Blender</name>
+          <price>89.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.99</total>
+    <shippingAddress>2828 Cedar St, Sacramento, CA 95814</shippingAddress>
+  </order>
+  
+  <order id="1032" date="2025-02-05" customer="Rachel Howard" status="Delivered">
+    <lineItems>
+      <item id="10321">
+        <product id="P320">
+          <name>Microwave Oven</name>
+          <price>129.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>2929 Pine St, Albuquerque, NM 87102</shippingAddress>
+  </order>
+  
+  <order id="1033" date="2025-02-06" customer="Jeff Morris" status="Processing">
+    <lineItems>
+      <item id="10331">
+        <product id="P330">
+          <name>Digital Piano</name>
+          <price>799.99</price>
+          <category>Music</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>799.99</subtotal>
+      </item>
+      <item id="10332">
+        <product id="P331">
+          <name>Piano Bench</name>
+          <price>79.99</price>
+          <category>Music</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+    </lineItems>
+    <total>879.98</total>
+    <shippingAddress>3030 Oak St, Tucson, AZ 85701</shippingAddress>
+  </order>
+  
+  <order id="1034" date="2025-02-07" customer="Patricia Edwards" status="Shipped">
+    <lineItems>
+      <item id="10341">
+        <product id="P340">
+          <name>Portable Speaker</name>
+          <price>149.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+    </lineItems>
+    <total>149.99</total>
+    <shippingAddress>3131 Elm St, Oklahoma City, OK 73102</shippingAddress>
+  </order>
+  
+  <order id="1035" date="2025-02-08" customer="Charles Reed" status="Delivered">
+    <lineItems>
+      <item id="10351">
+        <product id="P350">
+          <name>Winter Coat</name>
+          <price>199.99</price>
+          <category>Clothing</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+      <item id="10352">
+        <product id="P351">
+          <name>Gloves</name>
+          <price>29.99</price>
+          <category>Clothing</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+      <item id="10353">
+        <product id="P352">
+          <name>Scarf</name>
+          <price>24.99</price>
+          <category>Clothing</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>24.99</subtotal>
+      </item>
+    </lineItems>
+    <total>254.97</total>
+    <shippingAddress>3232 Walnut St, Louisville, KY 40202</shippingAddress>
+  </order>
+  
+  <order id="1036" date="2025-02-09" customer="Dorothy Murray" status="Processing">
+    <lineItems>
+      <item id="10361">
+        <product id="P360">
+          <name>Hair Dryer</name>
+          <price>69.99</price>
+          <category>Beauty</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>69.99</subtotal>
+      </item>
+    </lineItems>
+    <total>69.99</total>
+    <shippingAddress>3333 Cherry St, Milwaukee, WI 53202</shippingAddress>
+  </order>
+  
+  <order id="1037" date="2025-02-10" customer="Timothy Powell" status="Shipped">
+    <lineItems>
+      <item id="10371">
+        <product id="P370">
+          <name>Security Camera</name>
+          <price>199.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>399.98</subtotal>
+      </item>
+      <item id="10372">
+        <product id="P371">
+          <name>Smart Door Lock</name>
+          <price>249.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+    </lineItems>
+    <total>649.97</total>
+    <shippingAddress>3434 Birch St, Memphis, TN 38103</shippingAddress>
+  </order>
+  
+  <order id="1038" date="2025-02-11" customer="Carol Russell" status="Delivered">
+    <lineItems>
+      <item id="10381">
+        <product id="P380">
+          <name>Electric Fan</name>
+          <price>49.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>99.98</subtotal>
+      </item>
+    </lineItems>
+    <total>99.98</total>
+    <shippingAddress>3535 Maple St, El Paso, TX 79901</shippingAddress>
+  </order>
+  
+  <order id="1039" date="2025-02-12" customer="Roger Hamilton" status="Processing">
+    <lineItems>
+      <item id="10391">
+        <product id="P390">
+          <name>Bluetooth Earbuds</name>
+          <price>129.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+      <item id="10392">
+        <product id="P391">
+          <name>Earbud Case</name>
+          <price>19.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+    </lineItems>
+    <total>149.98</total>
+    <shippingAddress>3636 Cedar St, Omaha, NE 68102</shippingAddress>
+  </order>
+  
+  <order id="1040" date="2025-02-13" customer="Diana Gibson" status="Shipped">
+    <lineItems>
+      <item id="10401">
+        <product id="P400">
+          <name>Electric Toothbrush</name>
+          <price>89.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+      <item id="10402">
+        <product id="P401">
+          <name>Replacement Heads</name>
+          <price>24.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>24.99</subtotal>
+      </item>
+    </lineItems>
+    <total>114.98</total>
+    <shippingAddress>3737 Oak St, Virginia Beach, VA 23451</shippingAddress>
+  </order>
+  
+  <order id="1041" date="2025-02-14" customer="Walter Coleman" status="Delivered">
+    <lineItems>
+      <item id="10411">
+        <product id="P410">
+          <name>Roses Bouquet</name>
+          <price>59.99</price>
+          <category>Flowers</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>59.99</subtotal>
+      </item>
+      <item id="10412">
+        <product id="P411">
+          <name>Chocolate Box</name>
+          <price>29.99</price>
+          <category>Food</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.98</total>
+    <shippingAddress>3838 Elm St, Providence, RI 02903</shippingAddress>
+  </order>
+  
+  <order id="1042" date="2025-02-15" customer="Helen Peterson" status="Processing">
+    <lineItems>
+      <item id="10421">
+        <product id="P420">
+          <name>Treadmill</name>
+          <price>999.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>999.99</subtotal>
+      </item>
+      <item id="10422">
+        <product id="P421">
+          <name>Exercise Mat</name>
+          <price>39.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>1039.98</total>
+    <shippingAddress>3939 Walnut St, Honolulu, HI 96813</shippingAddress>
+  </order>
+  
+  <order id="1043" date="2025-02-16" customer="Wayne Ward" status="Shipped">
+    <lineItems>
+      <item id="10431">
+        <product id="P430">
+          <name>Air Fryer</name>
+          <price>119.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>119.99</subtotal>
+      </item>
+    </lineItems>
+    <total>119.99</total>
+    <shippingAddress>4040 Cherry St, Rochester, NY 14604</shippingAddress>
+  </order>
+  
+  <order id="1044" date="2025-02-17" customer="Kimberly Foster" status="Delivered">
+    <lineItems>
+      <item id="10441">
+        <product id="P440">
+          <name>Desk Chair</name>
+          <price>249.99</price>
+          <category>Furniture</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+    </lineItems>
+    <total>249.99</total>
+    <shippingAddress>4141 Birch St, Salt Lake City, UT 84111</shippingAddress>
+  </order>
+  
+  <order id="1045" date="2025-02-18" customer="Alan Jordan" status="Processing">
+    <lineItems>
+      <item id="10451">
+        <product id="P450">
+          <name>Winter Boots</name>
+          <price>149.99</price>
+          <category>Clothing</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+      <item id="10452">
+        <product id="P451">
+          <name>Thermal Socks</name>
+          <price>19.99</price>
+          <category>Clothing</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>59.97</subtotal>
+      </item>
+    </lineItems>
+    <total>209.96</total>
+    <shippingAddress>4242 Maple St, Madison, WI 53703</shippingAddress>
+  </order>
+  
+  <order id="1046" date="2025-02-19" customer="Gloria Reynolds" status="Shipped">
+    <lineItems>
+      <item id="10461">
+        <product id="P460">
+          <name>Sewing Machine</name>
+          <price>299.99</price>
+          <category>Crafts</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>299.99</subtotal>
+      </item>
+      <item id="10462">
+        <product id="P461">
+          <name>Fabric Bundle</name>
+          <price>49.99</price>
+          <category>Crafts</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+      <item id="10463">
+        <product id="P462">
+          <name>Thread Set</name>
+          <price>29.99</price>
+          <category>Crafts</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+    </lineItems>
+    <total>379.97</total>
+    <shippingAddress>4343 Cedar St, Boise, ID 83702</shippingAddress>
+  </order>
+  
+  <order id="1047" date="2025-02-20" customer="Eric Griffin" status="Delivered">
+    <lineItems>
+      <item id="10471">
+        <product id="P470">
+          <name>Projector</name>
+          <price>799.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>799.99</subtotal>
+      </item>
+      <item id="10472">
+        <product id="P471">
+          <name>Projector Screen</name>
+          <price>129.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>929.98</total>
+    <shippingAddress>4444 Oak St, Des Moines, IA 50309</shippingAddress>
+  </order>
+  
+  <order id="1048" date="2025-02-21" customer="Louise Stewart" status="Processing">
+    <lineItems>
+      <item id="10481">
+        <product id="P480">
+          <name>Vacuum Cleaner</name>
+          <price>299.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>299.99</subtotal>
+      </item>
+      <item id="10482">
+        <product id="P481">
+          <name>Vacuum Bags</name>
+          <price>19.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+    </lineItems>
+    <total>319.98</total>
+    <shippingAddress>4545 Elm St, Jackson, MS 39201</shippingAddress>
+  </order>
+  
+  <order id="1049" date="2025-02-22" customer="Bruce Olson" status="Shipped">
+    <lineItems>
+      <item id="10491">
+        <product id="P490">
+          <name>Power Drill</name>
+          <price>129.99</price>
+          <category>Tools</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>4646 Walnut St, Birmingham, AL 35203</shippingAddress>
+  </order>
+  
+  <order id="1050" date="2025-02-23" customer="Kathleen Ferguson" status="Delivered">
+    <lineItems>
+      <item id="10501">
+        <product id="P500">
+          <name>Baby Stroller</name>
+          <price>349.99</price>
+          <category>Baby</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>349.99</subtotal>
+      </item>
+      <item id="10502">
+        <product id="P501">
+          <name>Diaper Bag</name>
+          <price>89.99</price>
+          <category>Baby</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>439.98</total>
+    <shippingAddress>4747 Cherry St, Anchorage, AK 99501</shippingAddress>
+  </order>
+  
+  <order id="1051" date="2025-02-24" customer="Harry Simpson" status="Processing">
+    <lineItems>
+      <item id="10511">
+        <product id="P510">
+          <name>Gaming Headset</name>
+          <price>129.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>4848 Birch St, Manchester, NH 03101</shippingAddress>
+  </order>
+  
+  <order id="1052" date="2025-02-25" customer="Marilyn Wells" status="Shipped">
+    <lineItems>
+      <item id="10521">
+        <product id="P520">
+          <name>Food Processor</name>
+          <price>179.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>179.99</subtotal>
+      </item>
+      <item id="10522">
+        <product id="P521">
+          <name>Mixing Bowls</name>
+          <price>39.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>219.98</total>
+    <shippingAddress>4949 Maple St, Charleston, SC 29401</shippingAddress>
+  </order>
+  
+  <order id="1053" date="2025-02-26" customer="Jerry Franklin" status="Delivered">
+    <lineItems>
+      <item id="10531">
+        <product id="P530">
+          <name>External SSD</name>
+          <price>199.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+    </lineItems>
+    <total>199.99</total>
+    <shippingAddress>5050 Cedar St, Fargo, ND 58102</shippingAddress>
+  </order>
+  
+  <order id="1054" date="2025-02-27" customer="Beverly Porter" status="Processing">
+    <lineItems>
+      <item id="10541">
+        <product id="P540">
+          <name>Smartwatch</name>
+          <price>299.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>299.99</subtotal>
+      </item>
+      <item id="10542">
+        <product id="P541">
+          <name>Watch Bands</name>
+          <price>29.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>89.97</subtotal>
+      </item>
+    </lineItems>
+    <total>389.96</total>
+    <shippingAddress>5151 Oak St, Burlington, VT 05401</shippingAddress>
+  </order>
+  
+  <order id="1055" date="2025-02-28" customer="Randy Henry" status="Shipped">
+    <lineItems>
+      <item id="10551">
+        <product id="P550">
+          <name>Air Conditioner</name>
+          <price>499.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>499.99</subtotal>
+      </item>
+    </lineItems>
+    <total>499.99</total>
+    <shippingAddress>5252 Elm St, Helena, MT 59601</shippingAddress>
+  </order>
+  
+  <order id="1056" date="2025-03-01" customer="Cheryl Watson" status="Delivered">
+    <lineItems>
+      <item id="10561">
+        <product id="P560">
+          <name>Digital Scale</name>
+          <price>49.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+    </lineItems>
+    <total>49.99</total>
+    <shippingAddress>5353 Walnut St, Little Rock, AR 72201</shippingAddress>
+  </order>
+  
+  <order id="1057" date="2025-03-02" customer="Fred Richardson" status="Processing">
+    <lineItems>
+      <item id="10571">
+        <product id="P570">
+          <name>Streaming Device</name>
+          <price>119.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>119.99</subtotal>
+      </item>
+      <item id="10572">
+        <product id="P211">
+          <name>HDMI Cable</name>
+          <price>19.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+    </lineItems>
+    <total>139.98</total>
+    <shippingAddress>5454 Cherry St, Cheyenne, WY 82001</shippingAddress>
+  </order>
+  
+  <order id="1058" date="2025-03-03" customer="Jean Torres" status="Shipped">
+    <lineItems>
+      <item id="10581">
+        <product id="P580">
+          <name>Robot Toy</name>
+          <price>89.99</price>
+          <category>Toys</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.99</total>
+    <shippingAddress>5555 Birch St, Newark, NJ 07102</shippingAddress>
+  </order>
+  
+  <order id="1059" date="2025-03-04" customer="Willie Butler" status="Delivered">
+    <lineItems>
+      <item id="10591">
+        <product id="P590">
+          <name>Running Shoes</name>
+          <price>129.99</price>
+          <category>Sports</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+      <item id="10592">
+        <product id="P591">
+          <name>Athletic Socks</name>
+          <price>19.99</price>
+          <category>Clothing</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>39.98</subtotal>
+      </item>
+    </lineItems>
+    <total>169.97</total>
+    <shippingAddress>5656 Maple St, Billings, MT 59101</shippingAddress>
+  </order>
+  
+  <order id="1060" date="2025-03-05" customer="Joyce Simmons" status="Processing">
+    <lineItems>
+      <item id="10601">
+        <product id="P600">
+          <name>Humidifier</name>
+          <price>89.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.99</total>
+    <shippingAddress>5757 Cedar St, Augusta, ME 04330</shippingAddress>
+  </order>
+  
+  <order id="1061" date="2025-03-06" customer="Billy Grant" status="Shipped">
+    <lineItems>
+      <item id="10611">
+        <product id="P610">
+          <name>Computer Monitor</name>
+          <price>449.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>449.99</subtotal>
+      </item>
+      <item id="10612">
+        <product id="P611">
+          <name>Monitor Stand</name>
+          <price>79.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+    </lineItems>
+    <total>529.98</total>
+    <shippingAddress>5858 Oak St, Columbia, SC 29201</shippingAddress>
+  </order>
+  
+  <order id="1062" date="2025-03-07" customer="Alice Hoffman" status="Delivered">
+    <lineItems>
+      <item id="10621">
+        <product id="P620">
+          <name>Hiking Backpack</name>
+          <price>119.99</price>
+          <category>Outdoors</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>119.99</subtotal>
+      </item>
+      <item id="10622">
+        <product id="P621">
+          <name>Water Bottle</name>
+          <price>24.99</price>
+          <category>Outdoors</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>24.99</subtotal>
+      </item>
+    </lineItems>
+    <total>144.98</total>
+    <shippingAddress>5959 Elm St, Pierre, SD 57501</shippingAddress>
+  </order>
+  
+  <order id="1063" date="2025-03-08" customer="Roy Warren" status="Processing">
+    <lineItems>
+      <item id="10631">
+        <product id="P630">
+          <name>Sleeping Bag</name>
+          <price>129.99</price>
+          <category>Outdoors</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>259.98</subtotal>
+      </item>
+      <item id="10632">
+        <product id="P631">
+          <name>Camping Tent</name>
+          <price>249.99</price>
+          <category>Outdoors</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+      <item id="10633">
+        <product id="P632">
+          <name>Camping Stove</name>
+          <price>89.99</price>
+          <category>Outdoors</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>599.96</total>
+    <shippingAddress>6060 Walnut St, Dover, DE 19901</shippingAddress>
+  </order>
+  
+  <order id="1064" date="2025-03-09" customer="Julia Cox" status="Shipped">
+    <lineItems>
+      <item id="10641">
+        <product id="P640">
+          <name>Digital Thermometer</name>
+          <price>49.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+    </lineItems>
+    <total>49.99</total>
+    <shippingAddress>6161 Cherry St, Montpelier, VT 05602</shippingAddress>
+  </order>
+  
+  <order id="1065" date="2025-03-10" customer="Howard Myers" status="Delivered">
+    <lineItems>
+      <item id="10651">
+        <product id="P650">
+          <name>Drone Camera</name>
+          <price>899.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>899.99</subtotal>
+      </item>
+      <item id="10652">
+        <product id="P651">
+          <name>Extra Battery</name>
+          <price>129.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>259.98</subtotal>
+      </item>
+      <item id="10653">
+        <product id="P652">
+          <name>Carrying Case</name>
+          <price>79.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+    </lineItems>
+    <total>1239.96</total>
+    <shippingAddress>6262 Birch St, Jefferson City, MO 65101</shippingAddress>
+  </order>
+  
+  <order id="1066" date="2025-03-11" customer="Lois Perry" status="Processing">
+    <lineItems>
+      <item id="10661">
+        <product id="P660">
+          <name>Electric Screwdriver</name>
+          <price>59.99</price>
+          <category>Tools</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>59.99</subtotal>
+      </item>
+      <item id="10662">
+        <product id="P661">
+          <name>Screwdriver Bit Set</name>
+          <price>29.99</price>
+          <category>Tools</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.98</total>
+    <shippingAddress>6363 Maple St, Concord, NH 03301</shippingAddress>
+  </order>
+  
+  <order id="1067" date="2025-03-12" customer="Jimmy Hughes" status="Shipped">
+    <lineItems>
+      <item id="10671">
+        <product id="P670">
+          <name>Wireless Earbuds</name>
+          <price>149.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+    </lineItems>
+    <total>149.99</total>
+    <shippingAddress>6464 Cedar St, Bismarck, ND 58501</shippingAddress>
+  </order>
+  
+  <order id="1068" date="2025-03-13" customer="Teresa Long" status="Delivered">
+    <lineItems>
+      <item id="10681">
+        <product id="P680">
+          <name>Handheld Vacuum</name>
+          <price>129.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>6565 Oak St, Carson City, NV 89701</shippingAddress>
+  </order>
+  
+  <order id="1069" date="2025-03-14" customer="Craig Foster" status="Processing">
+    <lineItems>
+      <item id="10691">
+        <product id="P690">
+          <name>USB Flash Drive</name>
+          <price>29.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>89.97</subtotal>
+      </item>
+      <item id="10692">
+        <product id="P691">
+          <name>Memory Card</name>
+          <price>39.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.96</total>
+    <shippingAddress>6666 Elm St, Santa Fe, NM 87501</shippingAddress>
+  </order>
+  
+  <order id="1070" date="2025-03-15" customer="Shirley Diaz" status="Shipped">
+    <lineItems>
+      <item id="10701">
+        <product id="P700">
+          <name>Digital Alarm Clock</name>
+          <price>39.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>39.99</total>
+    <shippingAddress>6767 Walnut St, Lincoln, NE 68508</shippingAddress>
+  </order>
+  
+  <order id="1071" date="2025-03-16" customer="Dennis Collins" status="Delivered">
+    <lineItems>
+      <item id="10711">
+        <product id="P710">
+          <name>Gaming Console Pro</name>
+          <price>599.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>599.99</subtotal>
+      </item>
+      <item id="10712">
+        <product id="P711">
+          <name>Gaming Controller</name>
+          <price>69.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>139.98</subtotal>
+      </item>
+      <item id="10713">
+        <product id="P712">
+          <name>Action Game</name>
+          <price>59.99</price>
+          <category>Gaming</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>179.97</subtotal>
+      </item>
+    </lineItems>
+    <total>919.94</total>
+    <shippingAddress>6868 Cherry St, Frankfort, KY 40601</shippingAddress>
+  </order>
+  
+  <order id="1072" date="2025-03-17" customer="Paula Carter" status="Processing">
+    <lineItems>
+      <item id="10721">
+        <product id="P720">
+          <name>Yoga Block Set</name>
+          <price>29.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+      <item id="10722">
+        <product id="P721">
+          <name>Yoga Strap</name>
+          <price>19.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+    </lineItems>
+    <total>49.98</total>
+    <shippingAddress>6969 Birch St, Olympia, WA 98501</shippingAddress>
+  </order>
+  
+  <order id="1073" date="2025-03-18" customer="Keith Morgan" status="Shipped">
+    <lineItems>
+      <item id="10731">
+        <product id="P730">
+          <name>Pressure Cooker</name>
+          <price>129.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>7070 Maple St, Topeka, KS 66603</shippingAddress>
+  </order>
+  
+  <order id="1074" date="2025-03-19" customer="Judith Bennett" status="Delivered">
+    <lineItems>
+      <item id="10741">
+        <product id="P740">
+          <name>Wireless Charging Pad</name>
+          <price>49.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>99.98</subtotal>
+      </item>
+    </lineItems>
+    <total>99.98</total>
+    <shippingAddress>7171 Cedar St, Salem, OR 97301</shippingAddress>
+  </order>
+  
+  <order id="1075" date="2025-03-20" customer="Gerald Brooks" status="Processing">
+    <lineItems>
+      <item id="10751">
+        <product id="P750">
+          <name>Leather Wallet</name>
+          <price>89.99</price>
+          <category>Accessories</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>89.99</subtotal>
+      </item>
+    </lineItems>
+    <total>89.99</total>
+    <shippingAddress>7272 Oak St, Juneau, AK 99801</shippingAddress>
+  </order>
+  
+  <order id="1076" date="2025-03-21" customer="Doris Wood" status="Shipped">
+    <lineItems>
+      <item id="10761">
+        <product id="P760">
+          <name>Digital Drawing Pad</name>
+          <price>199.99</price>
+          <category>Electronics</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+    </lineItems>
+    <total>199.99</total>
+    <shippingAddress>7373 Elm St, Baton Rouge, LA 70801</shippingAddress>
+  </order>
+  
+  <order id="1077" date="2025-03-22" customer="Ronald Price" status="Delivered">
+    <lineItems>
+      <item id="10771">
+        <product id="P770">
+          <name>Smart Light Bulb</name>
+          <price>39.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>4</quantity>
+        <subtotal>159.96</subtotal>
+      </item>
+      <item id="10772">
+        <product id="P771">
+          <name>Smart Hub</name>
+          <price>129.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>289.95</total>
+    <shippingAddress>7474 Walnut St, Montgomery, AL 36104</shippingAddress>
+  </order>
+  
+  <order id="1078" date="2025-03-23" customer="Martha Sanders" status="Processing">
+    <lineItems>
+      <item id="10781">
+        <product id="P780">
+          <name>Portable Generator</name>
+          <price>799.99</price>
+          <category>Outdoors</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>799.99</subtotal>
+      </item>
+      <item id="10782">
+        <product id="P781">
+          <name>Extension Cord</name>
+          <price>29.99</price>
+          <category>Tools</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>59.98</subtotal>
+      </item>
+    </lineItems>
+    <total>859.97</total>
+    <shippingAddress>7575 Cherry St, Tallahassee, FL 32301</shippingAddress>
+  </order>
+  
+  <order id="1079" date="2025-03-24" customer="Lloyd Watson" status="Shipped">
+    <lineItems>
+      <item id="10791">
+        <product id="P790">
+          <name>Indoor Plant</name>
+          <price>49.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>149.97</subtotal>
+      </item>
+      <item id="10792">
+        <product id="P791">
+          <name>Planter Pot</name>
+          <price>29.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>89.97</subtotal>
+      </item>
+    </lineItems>
+    <total>239.94</total>
+    <shippingAddress>7676 Birch St, Springfield, IL 62701</shippingAddress>
+  </order>
+  
+  <order id="1080" date="2025-03-25" customer="Annie Harrison" status="Delivered">
+    <lineItems>
+      <item id="10801">
+        <product id="P800">
+          <name>Cooking Knife Set</name>
+          <price>199.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+      <item id="10802">
+        <product id="P801">
+          <name>Cutting Board</name>
+          <price>39.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>239.98</total>
+    <shippingAddress>7777 Maple St, Harrisburg, PA 17101</shippingAddress>
+  </order>
+  
+  <order id="1081" date="2025-03-26" customer="Glen Gibson" status="Processing">
+    <lineItems>
+      <item id="10811">
+        <product id="P810">
+          <name>Car Jump Starter</name>
+          <price>99.99</price>
+          <category>Automotive</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>99.99</subtotal>
+      </item>
+    </lineItems>
+    <total>99.99</total>
+    <shippingAddress>7878 Cedar St, Trenton, NJ 08608</shippingAddress>
+  </order>
+  
+  <order id="1082" date="2025-03-27" customer="Ellen Gordon" status="Shipped">
+    <lineItems>
+      <item id="10821">
+        <product id="P820">
+          <name>Bath Towel Set</name>
+          <price>69.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>69.99</subtotal>
+      </item>
+      <item id="10822">
+        <product id="P821">
+          <name>Hand Towel Set</name>
+          <price>29.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+    </lineItems>
+    <total>99.98</total>
+    <shippingAddress>7979 Oak St, Hartford, CT 06103</shippingAddress>
+  </order>
+  
+  <order id="1083" date="2025-03-28" customer="Victor Ford" status="Delivered">
+    <lineItems>
+      <item id="10831">
+        <product id="P830">
+          <name>Car Tire Set</name>
+          <price>599.99</price>
+          <category>Automotive</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>599.99</subtotal>
+      </item>
+    </lineItems>
+    <total>599.99</total>
+    <shippingAddress>8080 Elm St, Richmond, VA 23219</shippingAddress>
+  </order>
+  
+  <order id="1084" date="2025-03-29" customer="Florence Johnston" status="Processing">
+    <lineItems>
+      <item id="10841">
+        <product id="P840">
+          <name>Garden Hose</name>
+          <price>39.99</price>
+          <category>Garden</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+      <item id="10842">
+        <product id="P841">
+          <name>Watering Can</name>
+          <price>19.99</price>
+          <category>Garden</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+      <item id="10843">
+        <product id="P842">
+          <name>Garden Gloves</name>
+          <price>12.99</price>
+          <category>Garden</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>25.98</subtotal>
+      </item>
+    </lineItems>
+    <total>85.96</total>
+    <shippingAddress>8181 Walnut St, Providence, RI 02903</shippingAddress>
+  </order>
+  
+  <order id="1085" date="2025-03-30" customer="Clyde Crawford" status="Shipped">
+    <lineItems>
+      <item id="10851">
+        <product id="P850">
+          <name>Ceiling Fan</name>
+          <price>199.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>199.99</subtotal>
+      </item>
+    </lineItems>
+    <total>199.99</total>
+    <shippingAddress>8282 Cherry St, Indianapolis, IN 46204</shippingAddress>
+  </order>
+  
+  <order id="1086" date="2025-03-31" customer="Leona Snyder" status="Delivered">
+    <lineItems>
+      <item id="10861">
+        <product id="P860">
+          <name>Hair Straightener</name>
+          <price>129.99</price>
+          <category>Beauty</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>8383 Birch St, Albany, NY 12207</shippingAddress>
+  </order>
+  
+  <order id="1087" date="2025-04-01" customer="Isaac Dean" status="Processing">
+    <lineItems>
+      <item id="10871">
+        <product id="P870">
+          <name>Protein Powder</name>
+          <price>49.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>99.98</subtotal>
+      </item>
+      <item id="10872">
+        <product id="P871">
+          <name>Shaker Bottle</name>
+          <price>14.99</price>
+          <category>Health</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>14.99</subtotal>
+      </item>
+    </lineItems>
+    <total>114.97</total>
+    <shippingAddress>8484 Maple St, Columbus, OH 43215</shippingAddress>
+  </order>
+  
+  <order id="1088" date="2025-04-02" customer="Nina Simmons" status="Shipped">
+    <lineItems>
+      <item id="10881">
+        <product id="P880">
+          <name>Massage Chair</name>
+          <price>1299.99</price>
+          <category>Furniture</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>1299.99</subtotal>
+      </item>
+    </lineItems>
+    <total>1299.99</total>
+    <shippingAddress>8585 Cedar St, Phoenix, AZ 85004</shippingAddress>
+  </order>
+  
+  <order id="1089" date="2025-04-03" customer="Clayton Fletcher" status="Delivered">
+    <lineItems>
+      <item id="10891">
+        <product id="P890">
+          <name>Telescope</name>
+          <price>899.99</price>
+          <category>Hobbies</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>899.99</subtotal>
+      </item>
+      <item id="10892">
+        <product id="P891">
+          <name>Star Chart</name>
+          <price>19.99</price>
+          <category>Hobbies</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+    </lineItems>
+    <total>919.98</total>
+    <shippingAddress>8686 Oak St, Nashville, TN 37219</shippingAddress>
+  </order>
+  
+  <order id="1090" date="2025-04-04" customer="Holly Wallace" status="Processing">
+    <lineItems>
+      <item id="10901">
+        <product id="P900">
+          <name>Paint Set</name>
+          <price>79.99</price>
+          <category>Arts</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+      <item id="10902">
+        <product id="P901">
+          <name>Canvas Pack</name>
+          <price>49.99</price>
+          <category>Arts</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+      <item id="10903">
+        <product id="P902">
+          <name>Paintbrush Set</name>
+          <price>39.99</price>
+          <category>Arts</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+    </lineItems>
+    <total>169.97</total>
+    <shippingAddress>8787 Elm St, Sacramento, CA 95814</shippingAddress>
+  </order>
+  
+  <order id="1091" date="2025-04-05" customer="Glen Harper" status="Shipped">
+    <lineItems>
+      <item id="10911">
+        <product id="P910">
+          <name>Wall Clock</name>
+          <price>59.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>59.99</subtotal>
+      </item>
+    </lineItems>
+    <total>59.99</total>
+    <shippingAddress>8888 Walnut St, Denver, CO 80202</shippingAddress>
+  </order>
+  
+  <order id="1092" date="2025-04-06" customer="Bertha Carpenter" status="Delivered">
+    <lineItems>
+      <item id="10921">
+        <product id="P920">
+          <name>Electric Shaver</name>
+          <price>149.99</price>
+          <category>Personal Care</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+    </lineItems>
+    <total>149.99</total>
+    <shippingAddress>8989 Cherry St, Boston, MA 02108</shippingAddress>
+  </order>
+  
+  <order id="1093" date="2025-04-07" customer="Darrell Mills" status="Processing">
+    <lineItems>
+      <item id="10931">
+        <product id="P930">
+          <name>Indoor Security Camera</name>
+          <price>129.99</price>
+          <category>Security</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>389.97</subtotal>
+      </item>
+      <item id="10932">
+        <product id="P931">
+          <name>Outdoor Security Camera</name>
+          <price>179.99</price>
+          <category>Security</category>
+        </product>
+        <quantity>2</quantity>
+        <subtotal>359.98</subtotal>
+      </item>
+    </lineItems>
+    <total>749.95</total>
+    <shippingAddress>9090 Birch St, New Orleans, LA 70112</shippingAddress>
+  </order>
+  
+  <order id="1094" date="2025-04-08" customer="Gladys Lawson" status="Shipped">
+    <lineItems>
+      <item id="10941">
+        <product id="P940">
+          <name>Slow Cooker</name>
+          <price>79.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>79.99</subtotal>
+      </item>
+    </lineItems>
+    <total>79.99</total>
+    <shippingAddress>9191 Maple St, Seattle, WA 98101</shippingAddress>
+  </order>
+  
+  <order id="1095" date="2025-04-09" customer="Lonnie Parsons" status="Delivered">
+    <lineItems>
+      <item id="10951">
+        <product id="P950">
+          <name>Smart Door Bell</name>
+          <price>249.99</price>
+          <category>Security</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>249.99</subtotal>
+      </item>
+      <item id="10952">
+        <product id="P951">
+          <name>Door Bell Chime</name>
+          <price>49.99</price>
+          <category>Security</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+    </lineItems>
+    <total>299.98</total>
+    <shippingAddress>9292 Cedar St, Orlando, FL 32801</shippingAddress>
+  </order>
+  
+  <order id="1096" date="2025-04-10" customer="Naomi Welch" status="Processing">
+    <lineItems>
+      <item id="10961">
+        <product id="P960">
+          <name>Dumbbells Set</name>
+          <price>149.99</price>
+          <category>Fitness</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>149.99</subtotal>
+      </item>
+    </lineItems>
+    <total>149.99</total>
+    <shippingAddress>9393 Oak St, Los Angeles, CA 90012</shippingAddress>
+  </order>
+  
+  <order id="1097" date="2025-04-11" customer="Oscar Salazar" status="Shipped">
+    <lineItems>
+      <item id="10971">
+        <product id="P970">
+          <name>Artificial Plant</name>
+          <price>49.99</price>
+          <category>Home</category>
+        </product>
+        <quantity>3</quantity>
+        <subtotal>149.97</subtotal>
+      </item>
+    </lineItems>
+    <total>149.97</total>
+    <shippingAddress>9494 Elm St, Chicago, IL 60602</shippingAddress>
+  </order>
+  
+  <order id="1098" date="2025-04-12" customer="Viola Newman" status="Delivered">
+    <lineItems>
+      <item id="10981">
+        <product id="P980">
+          <name>Food Storage Set</name>
+          <price>39.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>39.99</subtotal>
+      </item>
+      <item id="10982">
+        <product id="P981">
+          <name>Water Bottles</name>
+          <price>29.99</price>
+          <category>Kitchen</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>29.99</subtotal>
+      </item>
+    </lineItems>
+    <total>69.98</total>
+    <shippingAddress>9595 Walnut St, Dallas, TX 75201</shippingAddress>
+  </order>
+  
+  <order id="1099" date="2025-04-13" customer="Clinton Gross" status="Processing">
+    <lineItems>
+      <item id="10991">
+        <product id="P990">
+          <name>Baby Monitor</name>
+          <price>129.99</price>
+          <category>Baby</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>129.99</subtotal>
+      </item>
+    </lineItems>
+    <total>129.99</total>
+    <shippingAddress>9696 Cherry St, Philadelphia, PA 19102</shippingAddress>
+  </order>
+  
+  <order id="1100" date="2025-04-14" customer="Dana Cunningham" status="Shipped">
+    <lineItems>
+      <item id="11001">
+        <product id="P1000">
+          <name>Laptop Stand</name>
+          <price>49.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>49.99</subtotal>
+      </item>
+      <item id="11002">
+        <product id="P1001">
+          <name>Keyboard Wrist Rest</name>
+          <price>19.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>19.99</subtotal>
+      </item>
+      <item id="11003">
+        <product id="P1002">
+          <name>Mouse Pad</name>
+          <price>14.99</price>
+          <category>Office</category>
+        </product>
+        <quantity>1</quantity>
+        <subtotal>14.99</subtotal>
+      </item>
+    </lineItems>
+    <total>84.97</total>
+    <shippingAddress>9797 Birch St, New York, NY 10007</shippingAddress>
+  </order>
+</orders>

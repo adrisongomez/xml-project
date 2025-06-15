@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graficos de SVG</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      #graph-section {
+        width: 100%;
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      #error-banner {
+        color: white;
+        margin-bottom: 12px;
+        padding: 1px 10px;
+        box-sizing: border-box;
+        display: flex;
+        gap: 12px;
+        border: 2px solid red;
+        background-color: tomato;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="file-input" type="file" />
+    <div id="error-banner" class="hidden">
+      <p><b>Error</b></p>
+      <p id="message">Message</p>
+    </div>
+    <div id="graph-section"></div>
+    <script type="application/javascript">
+      document.addEventListener("DOMContentLoaded", function () {
+        const fileInput = document.getElementById("file-input");
+        fileInput.addEventListener("change", handleInputFile);
+      });
+
+      const COLOR_BAR = {
+        0: "red",
+        1: "blue",
+        2: "tomato",
+        3: "gray",
+        4: "black",
+        5: "green",
+        6: "yellow",
+      };
+
+      const MonthNumberToStringMap = {
+        0: "January",
+        1: "February",
+        2: "Mars",
+        3: "April",
+      };
+      const redrawGraphEvents = new EventTarget();
+
+      redrawGraphEvents.addEventListener("redraw", (event) => {
+        /** @type {Order[]} */
+        const data = event.detail;
+        if (!data?.length) {
+          showErrorMessage("Can't show the graph not data");
+        }
+        const graphFeed = computeMonthlyOrderSummary(data);
+        buildMonthlyOrderSummary(graphFeed);
+      });
+
+      /**
+       * @param {{month: string, value: number}[]} data
+       **/
+      function buildMonthlyOrderSummary(data) {
+        const svg = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "svg"
+        );
+        svg.setAttribute("width", "100%");
+        svg.setAttribute("heigth", "100%");
+        // svg.setAttribute('viewBox', "100 100 100 100");
+        const graphNode = document.getElementById("graph-section");
+        graphNode.replaceChildren();
+        const maxValue = Math.max(...data.map((data) => data.value));
+        let graphTotalWidth = graphNode.getBoundingClientRect().width - 260; // -20 for leave some padding
+        if (graphTotalWidth < 180) graphTotalWidth = 180; // Ensure minimum width
+        const conversitionConstant = graphTotalWidth / maxValue;
+        const barHeight = 24;
+        const barGap = 10;
+        data.forEach((entry, index) => {
+          const bar = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "rect"
+          );
+
+          const barWidth = entry.value * conversitionConstant;
+          const y = 10 + index * (barHeight + barGap);
+          bar.setAttribute("width", barWidth.toFixed(2));
+          bar.setAttribute("height", barHeight);
+          bar.setAttribute("fill", COLOR_BAR[index % 7]);
+          bar.setAttribute("x", 90);
+          bar.setAttribute("y", y);
+          bar.setAttribute("style", "storke-width: 1; stroke: black;");
+          const monthTag = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "text"
+          );
+          const middlePositionY = y + (2 * barHeight) / 3
+          monthTag.textContent = entry.month;
+          monthTag.setAttribute("x", 0);
+          monthTag.setAttribute("y", middlePositionY); // multiply for 2/3 of the height to center the content
+          const valueTag = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "text"
+          );
+          valueTag.textContent = entry.value.toFixed(2);
+          valueTag.setAttribute("y", middlePositionY);
+          valueTag.setAttribute("x", barWidth + 110); // Adding 110 for adding a padding of 10% from the bar and add up the whole bar width
+          svg.appendChild(monthTag);
+          svg.appendChild(valueTag);
+          svg.appendChild(bar);
+        });
+        graphNode.appendChild(svg);
+      }
+
+      /**
+       * @param {Order[]} data
+       * @returns {{month: string, value: number}[]}
+       */
+      function computeMonthlyOrderSummary(data) {
+        const groupData = data.reduce((acc, order) => {
+          const month = order.date.getMonth();
+          if (acc.has(month)) {
+            acc.get(month).push(order);
+          } else {
+            acc.set(month, [order]);
+          }
+          return acc;
+        }, new Map());
+        const response = [];
+        for (const [key, value] of groupData.entries()) {
+          const total = value.reduce((acc, value) => value.total + acc, 0);
+          response.push({
+            month: MonthNumberToStringMap[key],
+            value: total / value.length,
+          });
+        }
+        return response;
+      }
+
+      /**
+       * @param {Event} event
+       **/
+      function handleInputFile(event) {
+        /**
+         * @type {FileList}
+         **/
+        const files = event.target.files;
+        const file = files.item(0);
+        hideErrorMessage();
+        if (!file) {
+          showErrorMessage("Not files found");
+          return;
+        }
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const content = e.target.result;
+          try {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(content, "text/xml");
+            const orders = handleParseAndValidateOrderData(xmlDoc);
+            redrawGraphEvents.dispatchEvent(
+              new CustomEvent("redraw", { detail: orders })
+            );
+          } catch (error) {
+            showErrorMessage("Can't parse the document");
+            return;
+          }
+        };
+        reader.readAsText(file);
+      }
+
+      class Order {
+        constructor({ id, customer, date, status }) {
+          /** @type {string} */
+          this.id = id;
+          /** @type {string} */
+          this.customer = customer;
+          /** @type {Date} */
+          this.date = new Date(date);
+          /** @type {string} */
+          this.status;
+
+          this._total = 0;
+        }
+
+        set total(value) {
+          if (!value || Number.isNaN(value)) {
+            return;
+          }
+          this._total = value;
+        }
+
+        get total() {
+          return this._total;
+        }
+      }
+
+      /**
+       * @param {Document} document
+       **/
+      function handleParseAndValidateOrderData(document) {
+        const docOrders = document.querySelectorAll("orders");
+        if (!docOrders?.length) {
+          showErrorMessage("Can't find the orders from it");
+          return;
+        }
+        const listOrders = document.querySelectorAll("order");
+        if (!listOrders?.length) {
+          showErrorMessage(
+            "Can't find the list of orders within the docuement"
+          );
+          return;
+        }
+        /** @type{Order[]} */
+        const orders = [];
+        listOrders.forEach((element) => {
+          const id = element.getAttribute("id");
+          const customer = element.getAttribute("customer");
+          const date = element.getAttribute("date");
+          const status = element.getAttribute("status");
+          const order = new Order({ id, customer, date, status });
+          const total = parseFloat(element.querySelector("total").getHTML());
+          order.total = total;
+          orders.push(order);
+        });
+        return orders;
+      }
+
+      function showErrorMessage(message) {
+        const errorBanner = document.getElementById("error-banner");
+        errorBanner.querySelector("#message").innerHTML = message;
+        errorBanner.classList.remove("hidden");
+      }
+
+      function hideErrorMessage() {
+        document.getElementById("error-banner").classList.add("hidden");
+      }
+    </script>
+  </body>
+</html>
