@@ -113,7 +113,7 @@
             "http://www.w3.org/2000/svg",
             "text"
           );
-          const middlePositionY = y + (2 * barHeight) / 3
+          const middlePositionY = y + (2 * barHeight) / 3;
           monthTag.textContent = entry.month;
           monthTag.setAttribute("x", 0);
           monthTag.setAttribute("y", middlePositionY); // multiply for 2/3 of the height to center the content
@@ -150,7 +150,7 @@
           const total = value.reduce((acc, value) => value.total + acc, 0);
           response.push({
             month: MonthNumberToStringMap[key],
-            value: total / value.length,
+            value: total,
           });
         }
         return response;
@@ -166,6 +166,7 @@
         const files = event.target.files;
         const file = files.item(0);
         hideErrorMessage();
+        clearGraph()
         if (!file) {
           showErrorMessage("Not files found");
           return;
@@ -243,6 +244,10 @@
           orders.push(order);
         });
         return orders;
+      }
+
+      function clearGraph() {
+        document.getElementById("graph-section").replaceChildren();
       }
 
       function showErrorMessage(message) {
