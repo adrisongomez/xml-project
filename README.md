@@ -35,6 +35,7 @@ This project is a Node.js/Express API for managing customers, products, and orde
 - `PUT    /api/customers/:id` — Update a customer
 - `GET    /api/customers/:id` — Get a customer by ID
 - `DELETE /api/customers/:id` — Delete a customer
+- `GET    /api/customers` — Search customers by `email` or `phoneNumber` query params
 
 ### Products
 - `POST   /api/products` — Create or upsert a product
