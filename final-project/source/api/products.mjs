@@ -23,8 +23,8 @@ router.post("/products", async (req, res) => {
     input.price,
     input.description
   );
-  console.log('daddy', response);
-  res.status(201).send({ products: builder.build(response) });
+  console.log("daddy", response);
+  res.status(201).send(builder.build(response));
 });
 
 router.put("/products/:id", async (req, res) => {
