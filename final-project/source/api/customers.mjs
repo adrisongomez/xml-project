@@ -53,6 +53,12 @@ router.get("/customers/:id", async (req, res) => {
   res.send(builder.build(response)).status(200);
 });
 
+router.get("/customers", async (req, res) => {
+  const { email, phoneNumber } = req.query;
+  const customers = await CustomerController.search({ email, phoneNumber });
+  res.status(200).send(builder.build({ customers }));
+});
+
 router.delete("/customers/:id", async (req, res) => {
   console.log("Handling GET customer request");
   const response = await CustomerController.deleteById(req.params.id);

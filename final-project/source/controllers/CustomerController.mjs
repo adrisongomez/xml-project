@@ -70,4 +70,29 @@ RETURNING id, name, email, phone_number;`,
       connection.release();
     }
   }
+
+  /**
+   * Search customers by email or phone number
+   * @param {{email?: string, phoneNumber?: string}} options
+   */
+  static async search({ email, phoneNumber } = {}) {
+    const { db } = Connection.getInstance();
+    let query =
+      "SELECT id, name, email, phone_number FROM customers";
+    const params = [];
+    const conditions = [];
+    if (email) {
+      conditions.push(`email ILIKE $${params.length + 1}`);
+      params.push(`%${email}%`);
+    }
+    if (phoneNumber) {
+      conditions.push(`phone_number ILIKE $${params.length + 1}`);
+      params.push(`%${phoneNumber}%`);
+    }
+    if (conditions.length) {
+      query += " WHERE " + conditions.join(" OR ");
+    }
+    const result = await db.query(query, params);
+    return result.rows.map((row) => ({ customer: fromRow(row) }));
+  }
 }
