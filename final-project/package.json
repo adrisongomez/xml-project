@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "nodemon ./source/index.mjs",
     "migrate:create": "db-migrate create",
-    "migrate:up": "db-migrate up"
+    "migrate:up": "db-migrate up",
+    "seed": "node ./scripts/seed.mjs"
   },
   "devDependencies": {
     "db-migrate": "^0.11.14",
