@@ -1,0 +1,51 @@
+@startchen "Diagrama de entidad relacion del proyecto de XML"
+left to right direction
+
+entity Product {
+    id : UUID <<key>>
+    name : STRING
+    price : NUMBER
+    description : STRING
+}
+
+entity LineItem {
+    id : UUID <<key>>
+    productId : UUID <<FK>>
+    orderId : UUID <<FK>>
+    quantity : NUMBER
+    subtotal: NUMBER
+}
+
+entity Order {
+    id : UUID <<key>>
+    customerId : UUID <<key>>
+    orderedAt : DATE
+    total : NUMBER
+}
+
+entity Customer {
+    id : UUID <<key>>
+    name : STRING
+    email : STRING
+    phoneNumber : STRING
+}
+
+relationship Place {
+}
+
+relationship Represent {
+}
+
+relationship Contains {
+}
+
+Customer -1- Place
+Place -N-Order
+
+Order -1- Contains
+Contains -N- LineItem
+
+LineItem -1- Represent
+Represent -N-Product
+
+@endchen

@@ -1,0 +1,11 @@
+{
+    "defaultEnv": "pg-local",
+    "pg-local": {
+        "driver": "postgres",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "database": "postgres",
+        "port": "5432"
+    }
+}
