@@ -24,7 +24,7 @@ export interface LineItem {
   quantity: number;
 }
 
-const apiBase = "/api";
+const apiBase = "http://localhost:3000/api";
 
 function parseCustomers(xml: string): Customer[] {
   const doc = new DOMParser().parseFromString(xml, "application/xml");

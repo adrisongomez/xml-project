@@ -4,6 +4,7 @@ import bodyParserXml from "body-parser-xml";
 import dotenv from "dotenv";
 import root from "./api/root.mjs";
 import morgan from "morgan";
+import cors from "cors";
 bodyParserXml(bodyParser);
 
 dotenv.config({
@@ -12,7 +13,13 @@ dotenv.config({
 
 const app = express();
 const port = 3000;
-
+app.use(
+  cors({
+    allowedHeaders: "*",
+    methods: "*",
+    origin: "*",
+  })
+);
 app.use(
   morgan(":method :url :status :res[content-length] - :response-time ms")
 );
